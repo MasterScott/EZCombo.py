@@ -4,9 +4,13 @@ A Very Easy way to Load and Choose Combos from a ComboList.
 Example:
 
 Lets pretend Comblist.txt containts these lines: 
+
  example1:Pass1
+ 
  example2:Pass2
+ 
  example3:Pass3
+ 
 
 ```python
 from lib import EZComboLib
