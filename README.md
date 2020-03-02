@@ -3,7 +3,7 @@ A Very Easy way to Load and Choose Combos from a ComboList.
 
 Example:
 
-Lets pretend Comblist.txt containts these lines: 
+Lets pretend Comblist.txt contains these lines: 
 
  example1:Pass1
  
