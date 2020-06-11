@@ -1,4 +1,4 @@
-# EzComboLib
+# EzCombo.py
 
 <p align="center">
   <img width="171‬" height="102" src="https://i.imgur.com/c71GUHG.png">
@@ -18,11 +18,11 @@ Lets pretend Comblist.txt contains these lines:
  
 
 ```python
-from lib import EZComboLib
+from lib import EZCombo
 ComboIterator = 0
-EZComboLib.LoadCombos('ComboList.txt')
-EZComboLib.PullCombo(ComboIterator)
-print(EZComboLib.Username +':'+EZComboLib.Password)
+EZCombo.LoadCombos('ComboList.txt')
+EZCombo.PullCombo(ComboIterator)
+print(EZCombo.Username +':'+EZCombo.Password)
 >>>example1:Pass1
 ```
 Remember that lists in python start at 0 and go up!
@@ -30,7 +30,7 @@ Remember that lists in python start at 0 and go up!
 
 Quick Usage:
 
-Step 1) Put this file in the same folder as your project, or load it as a library
+Step 1) Put this file in the same folder as your project, or load it as a package
 
 Step 2) Call the function you want ex: LoadCombos(ComboPath) 
 
@@ -44,9 +44,9 @@ Step 1) Create a folder named "Lib" in your projects directory.
 
 Step 2) Create a file named __init__.py inside of the Lib Folder
 
-Step 3) Put EzComboLib.py inside of the Lib folder.
+Step 3) Put EzCombo.py inside of the Lib folder.
 
-Step 4) import to your python script using from lib import EzComboLib
+Step 4) import to your python script using from lib import EzCombo
 
 Expanded Documentation:
 
